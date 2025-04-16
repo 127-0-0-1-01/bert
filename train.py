@@ -84,3 +84,5 @@ if __name__ == '__main__':
         torch.save(model.state_dict(),f"params/{epoch}_bert.pth")
         print(epoch,"参数保存成功！")
 
+#ssh-keygen -t rsa -b 4096 -C "3013157267@qq.com"
+#git remote set-url origin git@github.com:127-0-0-1-01/bert.git
